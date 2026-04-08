@@ -7,7 +7,8 @@ body {
 .navbar {
     background-color: #16425B;
     padding: 15px;
-    text-align: center;}
+    text-align: center;
+    }
 
 .background {
     background-color: white;
@@ -22,4 +23,19 @@ body {
     text-align: center;
     }
 
-
+.box-blue {
+    background-color: #81C3D7;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    }
+.box-white {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    }
+.center-image {
+    text-align: center;
+    padding: 20px;
+    }
