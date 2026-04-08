@@ -1,0 +1,83 @@
+:root {
+      --sdg-main: #26BDE2; /* Vivid Cyan */
+      --deep-navy: #16425B; /* Deep Blue for Contrast */
+      --accent-soft: #e3f7fd;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #ffffff;
+      color: var(--deep-navy);
+    }
+
+    /* Navbar with high contrast bottom border */
+    .navbar {
+      background: #ffffff;
+      border-bottom: 5px solid var(--sdg-main);
+      padding: 1.2rem 0;
+    }
+
+    .navbar-brand {
+      font-weight: 900;
+      color: var(--deep-navy) !important;
+      letter-spacing: -1px;
+    }
+
+    /* High Contrast Hero Section */
+    .hero {
+      background-color: var(--deep-navy);
+      color: #ffffff;
+      padding: 120px 0;
+      border-bottom: 20px solid var(--sdg-main);
+    }
+
+    .hero h1 {
+      font-weight: 800;
+      font-size: 4rem;
+      color: var(--sdg-main);
+    }
+
+    /* Image Styling */
+    .img-hover {
+      transition: transform 0.4s ease;
+      object-fit: cover;
+      height: 400px;
+      width: 100%;
+    }
+    .img-hover:hover {
+      transform: scale(1.02);
+    }
+
+    /* Clean Info Cards */
+    .contrast-card {
+      background: var(--accent-soft);
+      border: none;
+      border-radius: 24px;
+      padding: 40px;
+      height: 100%;
+      border-bottom: 8px solid var(--sdg-main);
+    }
+
+    .display-stat {
+      font-size: 3.5rem;
+      font-weight: 900;
+      color: var(--deep-navy);
+      line-height: 1;
+      margin-bottom: 15px;
+    }
+
+    .tag {
+      background: var(--sdg-main);
+      color: var(--deep-navy);
+      padding: 5px 15px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+    }
+
+    footer {
+      background: var(--deep-navy);
+      color: #ffffff;
+      padding: 80px 0;
+    }
