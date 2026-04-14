@@ -1,0 +1,1544 @@
+/* SDG1 */
+:root {
+  --sdg-main: #E5243B;
+  --deep-navy: #6B0000;
+  --accent-soft: #fdecea;
+}
+
+body.sdg1 {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: var(--deep-navy);
+}
+
+body.sdg1 .navbar {
+  background: #ffffff;
+  border-bottom: 5px solid var(--sdg-main);
+  padding: 1.2rem 0;
+}
+
+body.sdg1 .navbar-brand {
+  font-weight: 900;
+  color: var(--deep-navy) !important;
+  letter-spacing: -1px;
+}
+
+body.sdg1 .hero {
+  background-color: var(--deep-navy);
+  color: #ffffff;
+  padding: 120px 0;
+  border-bottom: 20px solid var(--sdg-main);
+}
+
+body.sdg1 .hero h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--sdg-main);
+}
+
+body.sdg1 .img-hover {
+  transition: transform 0.4s ease;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+body.sdg1 .img-hover:hover {
+  transform: scale(1.02);
+}
+
+body.sdg1 .contrast-card {
+  background: var(--accent-soft);
+  border: none;
+  border-radius: 24px;
+  padding: 40px;
+  height: 100%;
+  border-bottom: 8px solid var(--sdg-main);
+}
+
+body.sdg1 .display-stat {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--deep-navy);
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+body.sdg1 .tag {
+  background: var(--sdg-main);
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+/* Quote block fix - replaces the cyan border */
+body.sdg1 blockquote {
+  border-left: 4px solid var(--sdg-main);
+  background-color: var(--accent-soft);
+  padding: 15px 20px;
+  margin: 20px 0;
+}
+
+body.sdg1 footer {
+  background: var(--deep-navy);
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+
+
+:root {
+  --sdg2-main: #DDA63A;
+  --sdg2-navy: #6B4400;
+  --sdg2-soft: #fdf5e6;
+}
+
+body.sdg2 {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: var(--sdg2-navy);
+}
+
+body.sdg2 .navbar {
+  background: #ffffff;
+  border-bottom: 5px solid var(--sdg2-main);
+  padding: 1.2rem 0;
+}
+
+body.sdg2 .navbar-brand {
+  font-weight: 900;
+  color: var(--sdg2-navy) !important;
+  letter-spacing: -1px;
+}
+
+body.sdg2 .hero {
+  background-color: var(--sdg2-navy);
+  color: #ffffff;
+  padding: 120px 0;
+  border-bottom: 20px solid var(--sdg2-main);
+}
+
+body.sdg2 .hero h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--sdg2-main);
+}
+
+body.sdg2 .img-hover {
+  transition: transform 0.4s ease;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+body.sdg2 .img-hover:hover {
+  transform: scale(1.02);
+}
+
+body.sdg2 .contrast-card {
+  background: var(--sdg2-soft);
+  border: none;
+  border-radius: 24px;
+  padding: 40px;
+  height: 100%;
+  border-bottom: 8px solid var(--sdg2-main);
+}
+
+body.sdg2 .display-stat {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--sdg2-navy);
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+body.sdg2 .tag {
+  background: var(--sdg2-main);
+  color: var(--sdg2-navy);
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+body.sdg2 blockquote {
+  border-left: 4px solid var(--sdg2-main);
+  background-color: var(--sdg2-soft);
+  padding: 15px 20px;
+  margin: 20px 0;
+}
+
+body.sdg2 footer {
+  background: var(--sdg2-navy);
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+
+/* SDG 3 - Good Health (Green) */
+
+:root {
+  --sdg3-main: #4C9F38;
+  --sdg3-navy: #1a4a10;
+  --sdg3-soft: #edf7eb;
+}
+
+body.sdg3 {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: var(--sdg3-navy);
+}
+
+body.sdg3 .navbar {
+  background: #ffffff;
+  border-bottom: 5px solid var(--sdg3-main);
+  padding: 1.2rem 0;
+}
+
+body.sdg3 .navbar-brand {
+  font-weight: 900;
+  color: var(--sdg3-navy) !important;
+  letter-spacing: -1px;
+}
+
+body.sdg3 .hero {
+  background-color: var(--sdg3-navy);
+  color: #ffffff;
+  padding: 120px 0;
+  border-bottom: 20px solid var(--sdg3-main);
+}
+
+body.sdg3 .hero h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--sdg3-main);
+}
+
+body.sdg3 .img-hover {
+  transition: transform 0.4s ease;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+body.sdg3 .img-hover:hover {
+  transform: scale(1.02);
+}
+
+body.sdg3 .contrast-card {
+  background: var(--sdg3-soft);
+  border: none;
+  border-radius: 24px;
+  padding: 40px;
+  height: 100%;
+  border-bottom: 8px solid var(--sdg3-main);
+}
+
+body.sdg3 .display-stat {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--sdg3-navy);
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+body.sdg3 .tag {
+  background: var(--sdg3-main);
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+body.sdg3 blockquote {
+  border-left: 4px solid var(--sdg3-main);
+  background-color: var(--sdg3-soft);
+  padding: 15px 20px;
+  margin: 20px 0;
+}
+
+body.sdg3 footer {
+  background: var(--sdg3-navy);
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+
+/* SDG 4 - Quality Education (Dark Red) */
+
+:root {
+  --sdg4-main: #C5192D;
+  --sdg4-navy: #580010;
+  --sdg4-soft: #fce8ea;
+}
+
+body.sdg4 {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: var(--sdg4-navy);
+}
+
+body.sdg4 .navbar {
+  background: #ffffff;
+  border-bottom: 5px solid var(--sdg4-main);
+  padding: 1.2rem 0;
+}
+
+body.sdg4 .navbar-brand {
+  font-weight: 900;
+  color: var(--sdg4-navy) !important;
+  letter-spacing: -1px;
+}
+
+body.sdg4 .hero {
+  background-color: var(--sdg4-navy);
+  color: #ffffff;
+  padding: 120px 0;
+  border-bottom: 20px solid var(--sdg4-main);
+}
+
+body.sdg4 .hero h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--sdg4-main);
+}
+
+body.sdg4 .img-hover {
+  transition: transform 0.4s ease;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+body.sdg4 .img-hover:hover {
+  transform: scale(1.02);
+}
+
+body.sdg4 .contrast-card {
+  background: var(--sdg4-soft);
+  border: none;
+  border-radius: 24px;
+  padding: 40px;
+  height: 100%;
+  border-bottom: 8px solid var(--sdg4-main);
+}
+
+body.sdg4 .display-stat {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--sdg4-navy);
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+body.sdg4 .tag {
+  background: var(--sdg4-main);
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+body.sdg4 blockquote {
+  border-left: 4px solid var(--sdg4-main);
+  background-color: var(--sdg4-soft);
+  padding: 15px 20px;
+  margin: 20px 0;
+}
+
+body.sdg4 footer {
+  background: var(--sdg4-navy);
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+
+/* SDG 5 - Gender Equality (Orange Red) */
+
+:root {
+  --sdg5-main: #FF3A21;
+  --sdg5-navy: #7a1500;
+  --sdg5-soft: #fff0ee;
+}
+
+body.sdg5 {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: var(--sdg5-navy);
+}
+
+body.sdg5 .navbar {
+  background: #ffffff;
+  border-bottom: 5px solid var(--sdg5-main);
+  padding: 1.2rem 0;
+}
+
+body.sdg5 .navbar-brand {
+  font-weight: 900;
+  color: var(--sdg5-navy) !important;
+  letter-spacing: -1px;
+}
+
+body.sdg5 .hero {
+  background-color: var(--sdg5-navy);
+  color: #ffffff;
+  padding: 120px 0;
+  border-bottom: 20px solid var(--sdg5-main);
+}
+
+body.sdg5 .hero h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--sdg5-main);
+}
+
+body.sdg5 .img-hover {
+  transition: transform 0.4s ease;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+body.sdg5 .img-hover:hover {
+  transform: scale(1.02);
+}
+
+body.sdg5 .contrast-card {
+  background: var(--sdg5-soft);
+  border: none;
+  border-radius: 24px;
+  padding: 40px;
+  height: 100%;
+  border-bottom: 8px solid var(--sdg5-main);
+}
+
+body.sdg5 .display-stat {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--sdg5-navy);
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+body.sdg5 .tag {
+  background: var(--sdg5-main);
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+body.sdg5 blockquote {
+  border-left: 4px solid var(--sdg5-main);
+  background-color: var(--sdg5-soft);
+  padding: 15px 20px;
+  margin: 20px 0;
+}
+
+body.sdg5 footer {
+  background: var(--sdg5-navy);
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+
+/* SDG 6 - Clean Water (Cyan) */
+
+:root {
+  --sdg6-main: #26BDE2;
+  --sdg6-navy: #16425B;
+  --sdg6-soft: #e3f7fd;
+}
+
+body.sdg6 {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: var(--sdg6-navy);
+}
+
+body.sdg6 .navbar {
+  background: #ffffff;
+  border-bottom: 5px solid var(--sdg6-main);
+  padding: 1.2rem 0;
+}
+
+body.sdg6 .navbar-brand {
+  font-weight: 900;
+  color: var(--sdg6-navy) !important;
+  letter-spacing: -1px;
+}
+
+body.sdg6 .hero {
+  background-color: var(--sdg6-navy);
+  color: #ffffff;
+  padding: 120px 0;
+  border-bottom: 20px solid var(--sdg6-main);
+}
+
+body.sdg6 .hero h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--sdg6-main);
+}
+
+body.sdg6 .img-hover {
+  transition: transform 0.4s ease;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+body.sdg6 .img-hover:hover {
+  transform: scale(1.02);
+}
+
+body.sdg6 .contrast-card {
+  background: var(--sdg6-soft);
+  border: none;
+  border-radius: 24px;
+  padding: 40px;
+  height: 100%;
+  border-bottom: 8px solid var(--sdg6-main);
+}
+
+body.sdg6 .display-stat {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--sdg6-navy);
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+body.sdg6 .tag {
+  background: var(--sdg6-main);
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+body.sdg6 blockquote {
+  border-left: 4px solid var(--sdg6-main);
+  background-color: var(--sdg6-soft);
+  padding: 15px 20px;
+  margin: 20px 0;
+}
+
+body.sdg6 footer {
+  background: var(--sdg6-navy);
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+
+/* SDG 7 - Clean Energy (Yellow) */
+
+:root {
+  --sdg7-main: #FCC30B;
+  --sdg7-navy: #5a4000;
+  --sdg7-soft: #fffbe6;
+}
+
+body.sdg7 {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: var(--sdg7-navy);
+}
+
+body.sdg7 .navbar {
+  background: #ffffff;
+  border-bottom: 5px solid var(--sdg7-main);
+  padding: 1.2rem 0;
+}
+
+body.sdg7 .navbar-brand {
+  font-weight: 900;
+  color: var(--sdg7-navy) !important;
+  letter-spacing: -1px;
+}
+
+body.sdg7 .hero {
+  background-color: var(--sdg7-navy);
+  color: #ffffff;
+  padding: 120px 0;
+  border-bottom: 20px solid var(--sdg7-main);
+}
+
+body.sdg7 .hero h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--sdg7-main);
+}
+
+body.sdg7 .img-hover {
+  transition: transform 0.4s ease;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+body.sdg7 .img-hover:hover {
+  transform: scale(1.02);
+}
+
+body.sdg7 .contrast-card {
+  background: var(--sdg7-soft);
+  border: none;
+  border-radius: 24px;
+  padding: 40px;
+  height: 100%;
+  border-bottom: 8px solid var(--sdg7-main);
+}
+
+body.sdg7 .display-stat {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--sdg7-navy);
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+body.sdg7 .tag {
+  background: var(--sdg7-main);
+  color: var(--sdg7-navy);
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+body.sdg7 blockquote {
+  border-left: 4px solid var(--sdg7-main);
+  background-color: var(--sdg7-soft);
+  padding: 15px 20px;
+  margin: 20px 0;
+}
+
+body.sdg7 footer {
+  background: var(--sdg7-navy);
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+
+/* SDG 8 - Decent Work (Dark Pink) */
+
+:root {
+  --sdg8-main: #A21942;
+  --sdg8-navy: #4a0018;
+  --sdg8-soft: #f9e8ee;
+}
+
+body.sdg8 {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: var(--sdg8-navy);
+}
+
+body.sdg8 .navbar {
+  background: #ffffff;
+  border-bottom: 5px solid var(--sdg8-main);
+  padding: 1.2rem 0;
+}
+
+body.sdg8 .navbar-brand {
+  font-weight: 900;
+  color: var(--sdg8-navy) !important;
+  letter-spacing: -1px;
+}
+
+body.sdg8 .hero {
+  background-color: var(--sdg8-navy);
+  color: #ffffff;
+  padding: 120px 0;
+  border-bottom: 20px solid var(--sdg8-main);
+}
+
+body.sdg8 .hero h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--sdg8-main);
+}
+
+body.sdg8 .img-hover {
+  transition: transform 0.4s ease;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+body.sdg8 .img-hover:hover {
+  transform: scale(1.02);
+}
+
+body.sdg8 .contrast-card {
+  background: var(--sdg8-soft);
+  border: none;
+  border-radius: 24px;
+  padding: 40px;
+  height: 100%;
+  border-bottom: 8px solid var(--sdg8-main);
+}
+
+body.sdg8 .display-stat {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--sdg8-navy);
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+body.sdg8 .tag {
+  background: var(--sdg8-main);
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+body.sdg8 blockquote {
+  border-left: 4px solid var(--sdg8-main);
+  background-color: var(--sdg8-soft);
+  padding: 15px 20px;
+  margin: 20px 0;
+}
+
+body.sdg8 footer {
+  background: var(--sdg8-navy);
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+
+/* SDG 9 - Industry & Innovation (Orange) */
+
+:root {
+  --sdg9-main: #FD6925;
+  --sdg9-navy: #7a2c00;
+  --sdg9-soft: #fff2eb;
+}
+
+body.sdg9 {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: var(--sdg9-navy);
+}
+
+body.sdg9 .navbar {
+  background: #ffffff;
+  border-bottom: 5px solid var(--sdg9-main);
+  padding: 1.2rem 0;
+}
+
+body.sdg9 .navbar-brand {
+  font-weight: 900;
+  color: var(--sdg9-navy) !important;
+  letter-spacing: -1px;
+}
+
+body.sdg9 .hero {
+  background-color: var(--sdg9-navy);
+  color: #ffffff;
+  padding: 120px 0;
+  border-bottom: 20px solid var(--sdg9-main);
+}
+
+body.sdg9 .hero h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--sdg9-main);
+}
+
+body.sdg9 .img-hover {
+  transition: transform 0.4s ease;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+body.sdg9 .img-hover:hover {
+  transform: scale(1.02);
+}
+
+body.sdg9 .contrast-card {
+  background: var(--sdg9-soft);
+  border: none;
+  border-radius: 24px;
+  padding: 40px;
+  height: 100%;
+  border-bottom: 8px solid var(--sdg9-main);
+}
+
+body.sdg9 .display-stat {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--sdg9-navy);
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+body.sdg9 .tag {
+  background: var(--sdg9-main);
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+body.sdg9 blockquote {
+  border-left: 4px solid var(--sdg9-main);
+  background-color: var(--sdg9-soft);
+  padding: 15px 20px;
+  margin: 20px 0;
+}
+
+body.sdg9 footer {
+  background: var(--sdg9-navy);
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+
+/* SDG 10 - Reduced Inequalities (Magenta) */
+
+:root {
+  --sdg10-main: #DD1367;
+  --sdg10-navy: #6b0030;
+  --sdg10-soft: #fce8f3;
+}
+
+body.sdg10 {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: var(--sdg10-navy);
+}
+
+body.sdg10 .navbar {
+  background: #ffffff;
+  border-bottom: 5px solid var(--sdg10-main);
+  padding: 1.2rem 0;
+}
+
+body.sdg10 .navbar-brand {
+  font-weight: 900;
+  color: var(--sdg10-navy) !important;
+  letter-spacing: -1px;
+}
+
+body.sdg10 .hero {
+  background-color: var(--sdg10-navy);
+  color: #ffffff;
+  padding: 120px 0;
+  border-bottom: 20px solid var(--sdg10-main);
+}
+
+body.sdg10 .hero h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--sdg10-main);
+}
+
+body.sdg10 .img-hover {
+  transition: transform 0.4s ease;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+body.sdg10 .img-hover:hover {
+  transform: scale(1.02);
+}
+
+body.sdg10 .contrast-card {
+  background: var(--sdg10-soft);
+  border: none;
+  border-radius: 24px;
+  padding: 40px;
+  height: 100%;
+  border-bottom: 8px solid var(--sdg10-main);
+}
+
+body.sdg10 .display-stat {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--sdg10-navy);
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+body.sdg10 .tag {
+  background: var(--sdg10-main);
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+body.sdg10 blockquote {
+  border-left: 4px solid var(--sdg10-main);
+  background-color: var(--sdg10-soft);
+  padding: 15px 20px;
+  margin: 20px 0;
+}
+
+body.sdg10 footer {
+  background: var(--sdg10-navy);
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+
+/* SDG 11 - Sustainable Cities (Light Orange) */
+
+:root {
+  --sdg11-main: #FD9D24;
+  --sdg11-navy: #7a4000;
+  --sdg11-soft: #fff5e6;
+}
+
+body.sdg11 {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: var(--sdg11-navy);
+}
+
+body.sdg11 .navbar {
+  background: #ffffff;
+  border-bottom: 5px solid var(--sdg11-main);
+  padding: 1.2rem 0;
+}
+
+body.sdg11 .navbar-brand {
+  font-weight: 900;
+  color: var(--sdg11-navy) !important;
+  letter-spacing: -1px;
+}
+
+body.sdg11 .hero {
+  background-color: var(--sdg11-navy);
+  color: #ffffff;
+  padding: 120px 0;
+  border-bottom: 20px solid var(--sdg11-main);
+}
+
+body.sdg11 .hero h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--sdg11-main);
+}
+
+body.sdg11 .img-hover {
+  transition: transform 0.4s ease;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+body.sdg11 .img-hover:hover {
+  transform: scale(1.02);
+}
+
+body.sdg11 .contrast-card {
+  background: var(--sdg11-soft);
+  border: none;
+  border-radius: 24px;
+  padding: 40px;
+  height: 100%;
+  border-bottom: 8px solid var(--sdg11-main);
+}
+
+body.sdg11 .display-stat {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--sdg11-navy);
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+body.sdg11 .tag {
+  background: var(--sdg11-main);
+  color: var(--sdg11-navy);
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+body.sdg11 blockquote {
+  border-left: 4px solid var(--sdg11-main);
+  background-color: var(--sdg11-soft);
+  padding: 15px 20px;
+  margin: 20px 0;
+}
+
+body.sdg11 footer {
+  background: var(--sdg11-navy);
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+
+/* SDG 12 - Responsible Consumption (Gold) */
+
+:root {
+  --sdg12-main: #BF8B2E;
+  --sdg12-navy: #5a3a00;
+  --sdg12-soft: #faf3e0;
+}
+
+body.sdg12 {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: var(--sdg12-navy);
+}
+
+body.sdg12 .navbar {
+  background: #ffffff;
+  border-bottom: 5px solid var(--sdg12-main);
+  padding: 1.2rem 0;
+}
+
+body.sdg12 .navbar-brand {
+  font-weight: 900;
+  color: var(--sdg12-navy) !important;
+  letter-spacing: -1px;
+}
+
+body.sdg12 .hero {
+  background-color: var(--sdg12-navy);
+  color: #ffffff;
+  padding: 120px 0;
+  border-bottom: 20px solid var(--sdg12-main);
+}
+
+body.sdg12 .hero h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--sdg12-main);
+}
+
+body.sdg12 .img-hover {
+  transition: transform 0.4s ease;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+body.sdg12 .img-hover:hover {
+  transform: scale(1.02);
+}
+
+body.sdg12 .contrast-card {
+  background: var(--sdg12-soft);
+  border: none;
+  border-radius: 24px;
+  padding: 40px;
+  height: 100%;
+  border-bottom: 8px solid var(--sdg12-main);
+}
+
+body.sdg12 .display-stat {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--sdg12-navy);
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+body.sdg12 .tag {
+  background: var(--sdg12-main);
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+body.sdg12 blockquote {
+  border-left: 4px solid var(--sdg12-main);
+  background-color: var(--sdg12-soft);
+  padding: 15px 20px;
+  margin: 20px 0;
+}
+
+body.sdg12 footer {
+  background: var(--sdg12-navy);
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+
+/* SDG 13 - Climate Action (Dark Green) */
+
+:root {
+  --sdg13-main: #3F7E44;
+  --sdg13-navy: #1a3a1c;
+  --sdg13-soft: #eaf2eb;
+}
+
+body.sdg13 {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: var(--sdg13-navy);
+}
+
+body.sdg13 .navbar {
+  background: #ffffff;
+  border-bottom: 5px solid var(--sdg13-main);
+  padding: 1.2rem 0;
+}
+
+body.sdg13 .navbar-brand {
+  font-weight: 900;
+  color: var(--sdg13-navy) !important;
+  letter-spacing: -1px;
+}
+
+body.sdg13 .hero {
+  background-color: var(--sdg13-navy);
+  color: #ffffff;
+  padding: 120px 0;
+  border-bottom: 20px solid var(--sdg13-main);
+}
+
+body.sdg13 .hero h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--sdg13-main);
+}
+
+body.sdg13 .img-hover {
+  transition: transform 0.4s ease;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+body.sdg13 .img-hover:hover {
+  transform: scale(1.02);
+}
+
+body.sdg13 .contrast-card {
+  background: var(--sdg13-soft);
+  border: none;
+  border-radius: 24px;
+  padding: 40px;
+  height: 100%;
+  border-bottom: 8px solid var(--sdg13-main);
+}
+
+body.sdg13 .display-stat {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--sdg13-navy);
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+body.sdg13 .tag {
+  background: var(--sdg13-main);
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+body.sdg13 blockquote {
+  border-left: 4px solid var(--sdg13-main);
+  background-color: var(--sdg13-soft);
+  padding: 15px 20px;
+  margin: 20px 0;
+}
+
+body.sdg13 footer {
+  background: var(--sdg13-navy);
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+
+/* SDG 14 - Life Below Water (Blue) */
+
+:root {
+  --sdg14-main: #0A97D9;
+  --sdg14-navy: #003f6b;
+  --sdg14-soft: #e3f4fc;
+}
+
+body.sdg14 {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: var(--sdg14-navy);
+}
+
+body.sdg14 .navbar {
+  background: #ffffff;
+  border-bottom: 5px solid var(--sdg14-main);
+  padding: 1.2rem 0;
+}
+
+body.sdg14 .navbar-brand {
+  font-weight: 900;
+  color: var(--sdg14-navy) !important;
+  letter-spacing: -1px;
+}
+
+body.sdg14 .hero {
+  background-color: var(--sdg14-navy);
+  color: #ffffff;
+  padding: 120px 0;
+  border-bottom: 20px solid var(--sdg14-main);
+}
+
+body.sdg14 .hero h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--sdg14-main);
+}
+
+body.sdg14 .img-hover {
+  transition: transform 0.4s ease;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+body.sdg14 .img-hover:hover {
+  transform: scale(1.02);
+}
+
+body.sdg14 .contrast-card {
+  background: var(--sdg14-soft);
+  border: none;
+  border-radius: 24px;
+  padding: 40px;
+  height: 100%;
+  border-bottom: 8px solid var(--sdg14-main);
+}
+
+body.sdg14 .display-stat {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--sdg14-navy);
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+body.sdg14 .tag {
+  background: var(--sdg14-main);
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+body.sdg14 blockquote {
+  border-left: 4px solid var(--sdg14-main);
+  background-color: var(--sdg14-soft);
+  padding: 15px 20px;
+  margin: 20px 0;
+}
+
+body.sdg14 footer {
+  background: var(--sdg14-navy);
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+
+/* SDG 15 - Life on Land (Bright Green) */
+
+:root {
+  --sdg15-main: #56C02B;
+  --sdg15-navy: #1e5200;
+  --sdg15-soft: #edfae5;
+}
+
+body.sdg15 {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: var(--sdg15-navy);
+}
+
+body.sdg15 .navbar {
+  background: #ffffff;
+  border-bottom: 5px solid var(--sdg15-main);
+  padding: 1.2rem 0;
+}
+
+body.sdg15 .navbar-brand {
+  font-weight: 900;
+  color: var(--sdg15-navy) !important;
+  letter-spacing: -1px;
+}
+
+body.sdg15 .hero {
+  background-color: var(--sdg15-navy);
+  color: #ffffff;
+  padding: 120px 0;
+  border-bottom: 20px solid var(--sdg15-main);
+}
+
+body.sdg15 .hero h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--sdg15-main);
+}
+
+body.sdg15 .img-hover {
+  transition: transform 0.4s ease;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+body.sdg15 .img-hover:hover {
+  transform: scale(1.02);
+}
+
+body.sdg15 .contrast-card {
+  background: var(--sdg15-soft);
+  border: none;
+  border-radius: 24px;
+  padding: 40px;
+  height: 100%;
+  border-bottom: 8px solid var(--sdg15-main);
+}
+
+body.sdg15 .display-stat {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--sdg15-navy);
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+body.sdg15 .tag {
+  background: var(--sdg15-main);
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+body.sdg15 blockquote {
+  border-left: 4px solid var(--sdg15-main);
+  background-color: var(--sdg15-soft);
+  padding: 15px 20px;
+  margin: 20px 0;
+}
+
+body.sdg15 footer {
+  background: var(--sdg15-navy);
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+
+/* SDG 16 - Peace & Justice (Dark Blue) */
+
+:root {
+  --sdg16-main: #00689D;
+  --sdg16-navy: #002f4a;
+  --sdg16-soft: #e3f1f8;
+}
+
+body.sdg16 {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: var(--sdg16-navy);
+}
+
+body.sdg16 .navbar {
+  background: #ffffff;
+  border-bottom: 5px solid var(--sdg16-main);
+  padding: 1.2rem 0;
+}
+
+body.sdg16 .navbar-brand {
+  font-weight: 900;
+  color: var(--sdg16-navy) !important;
+  letter-spacing: -1px;
+}
+
+body.sdg16 .hero {
+  background-color: var(--sdg16-navy);
+  color: #ffffff;
+  padding: 120px 0;
+  border-bottom: 20px solid var(--sdg16-main);
+}
+
+body.sdg16 .hero h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--sdg16-main);
+}
+
+body.sdg16 .img-hover {
+  transition: transform 0.4s ease;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+body.sdg16 .img-hover:hover {
+  transform: scale(1.02);
+}
+
+body.sdg16 .contrast-card {
+  background: var(--sdg16-soft);
+  border: none;
+  border-radius: 24px;
+  padding: 40px;
+  height: 100%;
+  border-bottom: 8px solid var(--sdg16-main);
+}
+
+body.sdg16 .display-stat {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--sdg16-navy);
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+body.sdg16 .tag {
+  background: var(--sdg16-main);
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+body.sdg16 blockquote {
+  border-left: 4px solid var(--sdg16-main);
+  background-color: var(--sdg16-soft);
+  padding: 15px 20px;
+  margin: 20px 0;
+}
+
+body.sdg16 footer {
+  background: var(--sdg16-navy);
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+
+/* SDG 17 - Partnerships (Navy)*/
+
+:root {
+  --sdg17-main: #19486A;
+  --sdg17-navy: #0a1e2e;
+  --sdg17-soft: #e3edf5;
+}
+
+body.sdg17 {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: var(--sdg17-navy);
+}
+
+body.sdg17 .navbar {
+  background: #ffffff;
+  border-bottom: 5px solid var(--sdg17-main);
+  padding: 1.2rem 0;
+}
+
+body.sdg17 .navbar-brand {
+  font-weight: 900;
+  color: var(--sdg17-navy) !important;
+  letter-spacing: -1px;
+}
+
+body.sdg17 .hero {
+  background-color: var(--sdg17-navy);
+  color: #ffffff;
+  padding: 120px 0;
+  border-bottom: 20px solid var(--sdg17-main);
+}
+
+body.sdg17 .hero h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--sdg17-main);
+}
+
+body.sdg17 .img-hover {
+  transition: transform 0.4s ease;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+body.sdg17 .img-hover:hover {
+  transform: scale(1.02);
+}
+
+body.sdg17 .contrast-card {
+  background: var(--sdg17-soft);
+  border: none;
+  border-radius: 24px;
+  padding: 40px;
+  height: 100%;
+  border-bottom: 8px solid var(--sdg17-main);
+}
+
+body.sdg17 .display-stat {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--sdg17-navy);
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+body.sdg17 .tag {
+  background: var(--sdg17-main);
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+body.sdg17 blockquote {
+  border-left: 4px solid var(--sdg17-main);
+  background-color: var(--sdg17-soft);
+  padding: 15px 20px;
+  margin: 20px 0;
+}
+
+body.sdg17 footer {
+  background: var(--sdg17-navy);
+  color: #ffffff;
+  padding: 80px 0;
+}
