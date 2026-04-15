@@ -3,10 +3,91 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>SDG 6 | GoalQuest</title>
+<title>SDG 7 | GoalQuest</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+
+<style>
+:root {
+--sdg-main: #FCC30B; /* Vivid Gold */
+--deep-navy: #16425B;
+--accent-soft: #fffdf2;
+}
+
+body {
+font-family: 'Inter', sans-serif;
+background-color: #ffffff;
+color: var(--deep-navy);
+}
+
+.navbar {
+background: #ffffff;
+border-bottom: 5px solid var(--sdg-main);
+padding: 1.2rem 0;
+}
+
+.navbar-brand {
+font-weight: 900;
+color: var(--deep-navy) !important;
+letter-spacing: -1px;
+}
+
+.hero {
+background-color: var(--deep-navy);
+color: #ffffff;
+padding: 120px 0;
+border-bottom: 20px solid var(--sdg-main);
+}
+
+.hero h1 {
+font-weight: 800;
+font-size: 4rem;
+color: var(--sdg-main);
+}
+
+.img-hover {
+transition: transform 0.4s ease;
+object-fit: cover;
+height: 400px;
+width: 100%;
+}
+.img-hover:hover {
+transform: scale(1.02);
+}
+
+.contrast-card {
+background: var(--accent-soft);
+border: none;
+border-radius: 24px;
+padding: 40px;
+height: 100%;
+border-bottom: 8px solid var(--sdg-main);
+}
+
+.display-stat {
+font-size: 3.5rem;
+font-weight: 900;
+color: var(--deep-navy);
+line-height: 1;
+margin-bottom: 15px;
+}
+
+.tag {
+background: var(--sdg-main);
+color: var(--deep-navy);
+padding: 5px 15px;
+border-radius: 50px;
+font-weight: 700;
+font-size: 0.8rem;
+text-transform: uppercase;
+}
+
+footer {
+background: var(--deep-navy);
+color: #ffffff;
+padding: 80px 0;
+}
+</style>
 </head>
 <body>
 
@@ -35,8 +116,8 @@
               <li><a class="dropdown-item" href="SDG3.html">SDG 3</a></li>
               <li><a class="dropdown-item" href="SDG4.html">SDG 4</a></li>
               <li><a class="dropdown-item" href="SDG5.html">SDG 5</a></li>
-              <li><a class="dropdown-item fw-bold text-primary" href="SDG6.html">SDG 6</a></li>
-              <li><a class="dropdown-item" href="SDG7.html">SDG 7</a></li>
+              <li><a class="dropdown-item " href="SDG6.html">SDG 6</a></li>
+              <li><a class="dropdown-item fw-bold text-primary" href="SDG7.html">SDG 7</a></li>
               <li><a class="dropdown-item" href="SDG8.html">SDG 8</a></li>
               <li><a class="dropdown-item" href="SDG9.html">SDG 9</a></li>
               <li><a class="dropdown-item" href="SDG10.html">SDG 10</a></li>
@@ -56,9 +137,9 @@
 
 <header class="hero text-center">
 <div class="container">
-<span class="tag">Global Action</span>
-<h1 class="mt-3">Clean Water</h1>
-<p class="lead opacity-75 fs-4">Essential for health, dignity, and a sustainable planet.</p>
+<span class="tag">Energy Crisis</span>
+<h1 class="mt-3">Clean Energy</h1>
+<p class="lead opacity-75 fs-4">Powering the world with sustainable and modern solutions.</p>
 </div>
 </header>
 
@@ -66,14 +147,14 @@
 <div class="container">
 <div class="row align-items-center g-5">
 <div class="col-lg-6">
-<h2 class="fw-bold display-5 mb-4">The Water Crisis is a Human Crisis</h2>
-<p class="fs-5 text-muted">Without clean water, communities cannot thrive. SDG 6 isn't just about pipes and pumps; it’s about ensuring every child has the chance to grow up healthy.</p>
-<div class="p-4 border-start border-4 border-info bg-light mt-4">
-<p class="mb-0 italic">"Water is the driving force of all nature."</p>
+<h2 class="fw-bold display-5 mb-4">The Future is Renewable</h2>
+<p class="fs-5 text-muted">Energy production is the leading cause of climate change. SDG 7 aims to shift the global economy toward solar, wind, and thermal power to protect our atmosphere.</p>
+<div class="p-4 border-start border-4 border-warning bg-light mt-4">
+<p class="mb-0 italic">"Energy is the golden thread that connects economic growth and social equity."</p>
 </div>
 </div>
 <div class="col-lg-6">
-<img src="water.jpg" alt="Clean Water Access" class="img-hover rounded-5 shadow-lg">
+<img src="energy.jpg" alt="Solar Panels" class="img-hover rounded-5 shadow-lg">
 </div>
 </div>
 </div>
@@ -82,32 +163,32 @@
 <section class="py-5 bg-light">
 <div class="container">
 <div class="text-center mb-5">
-<h2 class="fw-bold">The Statistics</h2>
-<p class="text-muted">The numbers behind the mission.</p>
+<h2 class="fw-bold">Global Energy Stats</h2>
+<p class="text-muted">Where we stand today.</p>
 </div>
 
 <div class="row g-4">
 <div class="col-md-4">
 <div class="contrast-card">
-<div class="display-stat">2.2B</div>
-<h5 class="fw-bold">Lack Safe Water</h5>
-<p class="text-muted">People who do not have access to safe drinking water services globally.</p>
+<div class="display-stat">675M</div>
+<h5 class="fw-bold">No Electricity</h5>
+<p class="text-muted">People globally who still lack any form of electricity access in their homes.</p>
 </div>
 </div>
 
 <div class="col-md-4">
 <div class="contrast-card">
-<div class="display-stat">3.5B</div>
-<h5 class="fw-bold">No Sanitation</h5>
-<p class="text-muted">People living without safely managed sanitation in their communities.</p>
+<div class="display-stat">30%</div>
+<h5 class="fw-bold">Renewable Share</h5>
+<p class="text-muted">The percentage of electricity currently generated by renewable sources.</p>
 </div>
 </div>
 
 <div class="col-md-4">
 <div class="contrast-card">
-<div class="display-stat">40%</div>
-<h5 class="fw-bold">Water Scarcity</h5>
-<p class="text-muted">The percentage of the global population affected by water shortages.</p>
+<div class="display-stat">2030</div>
+<h5 class="fw-bold">Target Year</h5>
+<p class="text-muted">The deadline for universal access to affordable and clean energy.</p>
 </div>
 </div>
 </div>
@@ -118,13 +199,13 @@
 <div class="container">
 <div class="row g-4">
 <div class="col-md-8">
-<img src="infrastructure.jpg" alt="Water Infrastructure" class="img-fluid rounded-5 shadow" style="height: 300px; width: 100%; object-fit: cover;">
+<img src="turbines.jpg" alt="Wind Turbines" class="img-fluid rounded-5 shadow" style="height: 300px; width: 100%; object-fit: cover;">
 </div>
 <div class="col-md-4">
 <div class="bg-dark text-white p-5 rounded-5 h-100 d-flex flex-column justify-content-center">
-<h3 class="fw-bold">Take Action</h3>
-<p class="opacity-75">Education is the first step toward change. Share this data with your peers.</p>
-<a href="history.html" class="btn btn-outline-info mt-3">Learn the History</a>
+<h3 class="fw-bold">Efficient Living</h3>
+<p class="opacity-75">Switching to LED lighting is a simple step you can take today to reduce energy waste.</p>
+<a href="history.html" class="btn btn-outline-warning mt-3">Learn More</a>
 </div>
 </div>
 </div>
