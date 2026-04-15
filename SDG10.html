@@ -2,18 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>SDG10 | GoalQuest</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styleeldar.css">
+    <link rel="stylesheet" href="style.css">
+
 </head>
-<body>
+
+<body class="sdg10">
 
 <!-- NAVBAR START -->
 <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container">
 
 
-        <a class="navbar-brand fs-3 fw-bold" href="index.html">GOALQUEST</a>
+        <a class="navbar-brand fs-3 fw-bold" href="home_page.html">GOALQUEST</a>
 
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
@@ -26,12 +29,12 @@
 
 
                 <li class="nav-item">
-                    <a class="nav-link px-3" href="index.html">Home</a>
+                    <a class="nav-link px-3" href="home_page.html">Home</a>
                 </li>
 
 
                 <li class="nav-item">
-                    <a class="nav-link px-3" href="about.html">About</a>
+                    <a class="nav-link px-3" href="aboutus.html">About</a>
                 </li>
 
 
@@ -93,7 +96,7 @@
                     Inequality affect everyone
                 </h2>
 
-                <p class="fs-3-bold display-5 mb-4">Inequality limits opportunities and creates unfair systems. SDG 10 aims to ensure everyone has equal access to resources and opportunities.</p>
+                <p class="fs-5 text-muted">Inequality limits opportunities and creates unfair systems. SDG 10 aims to ensure everyone has equal access to resources and opportunities.</p>
 
             </div>
             <div class="col-lg-6 text-center">
@@ -106,8 +109,55 @@
     </div>
 </section>
 
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">The Statistics</h2>
+            <p class="text-muted">The numbers behind the mission.</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="contrast-card">
+                    <div class="display-stat">10%</div>
+                    <h5 class="fw-bold">Income Gap</h5>
+                    <p class="text-muted">The richest 10% earn over half of global income.</p>
+                </div>
+            </div>
 
+            <div class="col-md-4">
+                <div class="contrast-card">
+                    <div class="display-stat">50%</div>
+                    <h5 class="fw-bold">Wealth Share</h5>
+                    <p class="text-muted">Half the world owns less than 1% of total wealth.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="contrast-card">
+                    <div class="display-stat">50%</div>
+                    <h5 class="fw-bold">1 in 5</h5>
+                    <p class="text-muted">People worldwide report facing discrimination</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-8">
+                <img src="infrastructure.jpg" alt="Water Infrastructure" class="img-fluid rounded-5 shadow" style="height: 300px; width: 100%; object-fit: cover;">
 
+            </div>
+            <div class="col-md-4">
+                <div class="bg-dark text-white p-5 rounded-5 h-100 d-flex flex-column justify-content-center">
+                    <h3 class="fw-bold">Take Action</h3>
+                    <p class="opacity-75">Reducing inequality is the first step towards the change.</p>
+                    <a href="history.html" class="btn btn-outline-info mt-3">Learn the History</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
