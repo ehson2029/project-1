@@ -217,17 +217,17 @@ body.sdg2 .custom-img {
 
 /* Action box */
 body.sdg2 .action-box {
-  background-color: #6B0000;
+  background-color: #6B4400;
 }
 
 /* Button styling */
 body.sdg2 .custom-btn {
-  border: 2px solid #E5243B;
+  border: 2px solid #DDA63A;
   color: #ffffff;
 }
 
 body.sdg2 .custom-btn:hover {
-  background-color: #E5243B;
+  background-color: #DDA63A;
   color: #ffffff;
 }
 
@@ -336,17 +336,17 @@ body.sdg3 .custom-img {
 
 /* Action box */
 body.sdg3 .action-box {
-  background-color: #6B0000;
+  background-color: #1a4a10;
 }
 
 /* Button styling */
 body.sdg3 .custom-btn {
-  border: 2px solid #E5243B;
+  border: 2px solid #4C9F38;
   color: #ffffff;
 }
 
 body.sdg3 .custom-btn:hover {
-  background-color: #E5243B;
+  background-color: #4C9F38;
   color: #ffffff;
 }
 
@@ -461,12 +461,12 @@ body.sdg4 .action-box {
 
 /* Button styling */
 body.sdg4 .custom-btn {
-  border: 2px solid #E5243B;
+  border: 2px solid #C5192D;
   color: #ffffff;
 }
 
 body.sdg4 .custom-btn:hover {
-  background-color: #E5243B;
+  background-color: #C5192D;
   color: #ffffff;
 }
 
