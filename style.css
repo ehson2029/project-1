@@ -88,8 +88,40 @@ body.sdg1 footer {
   padding: 80px 0;
 }
 
+/* Section image */
+body.sdg1 .custom-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Action box */
+body.sdg1 .action-box {
+  background-color: #6B0000;
+}
+
+/* Button styling */
+body.sdg1 .custom-btn {
+  border: 2px solid #E5243B;
+  color: #ffffff;
+}
+
+body.sdg1 .custom-btn:hover {
+  background-color: #E5243B;
+  color: #ffffff;
+}
+
+/* Footer */
+body.sdg1 .custom-footer {
+  padding: 40px 0;
+}
+
+body.sdg1 .footer-title {
+  color: #E5243B ;
+}
 
 
+/* SDG 2 - Zero Hunger (Orange) */
 :root {
   --sdg2-main: #DDA63A;
   --sdg2-navy: #6B4400;
@@ -165,19 +197,47 @@ body.sdg2 .tag {
   text-transform: uppercase;
 }
 
-body.sdg2 blockquote {
+body.sdg2 .blockquote {
   border-left: 4px solid var(--sdg2-main);
   background-color: var(--sdg2-soft);
   padding: 15px 20px;
   margin: 20px 0;
 }
 
-body.sdg2 footer {
+body.sdg2 .footer {
   background: var(--sdg2-navy);
   color: #ffffff;
   padding: 80px 0;
 }
 
+/* Section image */
+body.sdg2 .custom-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Action box */
+body.sdg2 .action-box {
+  background-color: #6B0000;
+}
+
+/* Button styling */
+body.sdg2 .custom-btn {
+  border: 2px solid #E5243B;
+  color: #ffffff;
+}
+
+body.sdg2 .custom-btn:hover {
+  background-color: #E5243B;
+  color: #ffffff;
+}
+
+/* Footer */
+
+body.sdg2 .footer-title {
+  color: #DDA63A;
+}
 
 /* SDG 3 - Good Health (Green) */
 
@@ -256,17 +316,46 @@ body.sdg3 .tag {
   text-transform: uppercase;
 }
 
-body.sdg3 blockquote {
+body.sdg3 .blockquote {
   border-left: 4px solid var(--sdg3-main);
   background-color: var(--sdg3-soft);
   padding: 15px 20px;
   margin: 20px 0;
 }
 
-body.sdg3 footer {
+body.sdg3 .footer {
   background: var(--sdg3-navy);
   color: #ffffff;
   padding: 80px 0;
+}
+
+/* Section image */
+body.sdg3 .custom-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Action box */
+body.sdg3 .action-box {
+  background-color: #6B0000;
+}
+
+/* Button styling */
+body.sdg3 .custom-btn {
+  border: 2px solid #E5243B;
+  color: #ffffff;
+}
+
+body.sdg3 .custom-btn:hover {
+  background-color: #E5243B;
+  color: #ffffff;
+}
+
+/* Footer */
+
+body.sdg3 .footer-title {
+  color: #4C9F38;
 }
 
 
@@ -347,17 +436,46 @@ body.sdg4 .tag {
   text-transform: uppercase;
 }
 
-body.sdg4 blockquote {
+body.sdg4 .blockquote {
   border-left: 4px solid var(--sdg4-main);
   background-color: var(--sdg4-soft);
   padding: 15px 20px;
   margin: 20px 0;
 }
 
-body.sdg4 footer {
+body.sdg4 .footer {
   background: var(--sdg4-navy);
   color: #ffffff;
   padding: 80px 0;
+}
+
+/* Section image */
+body.sdg4 .custom-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Action box */
+body.sdg4 .action-box {
+  background-color: #6B0000;
+}
+
+/* Button styling */
+body.sdg4 .custom-btn {
+  border: 2px solid #E5243B;
+  color: #ffffff;
+}
+
+body.sdg4 .custom-btn:hover {
+  background-color: #E5243B;
+  color: #ffffff;
+}
+
+/* Footer */
+
+body.sdg4 .footer-title {
+  color: #C5192D;
 }
 
 
@@ -438,19 +556,47 @@ body.sdg5 .tag {
   text-transform: uppercase;
 }
 
-body.sdg5 blockquote {
+body.sdg5 .blockquote {
   border-left: 4px solid var(--sdg5-main);
   background-color: var(--sdg5-soft);
   padding: 15px 20px;
   margin: 20px 0;
 }
 
-body.sdg5 footer {
+body.sdg5 .footer {
   background: var(--sdg5-navy);
   color: #ffffff;
   padding: 80px 0;
 }
 
+/* Section image */
+body.sdg5 .custom-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Action box */
+body.sdg5 .action-box {
+  background-color: #6B0000;
+}
+
+/* Button styling */
+body.sdg5 .custom-btn {
+  border: 2px solid #E5243B;
+  color: #ffffff;
+}
+
+body.sdg5 .custom-btn:hover {
+  background-color: #E5243B;
+  color: #ffffff;
+}
+
+/* Footer */
+
+body.sdg5 .footer-title {
+  color: #FF3A21;
+}
 
 /* SDG 6 - Clean Water (Cyan) */
 
@@ -540,6 +686,35 @@ body.sdg6 footer {
   background: var(--sdg6-navy);
   color: #ffffff;
   padding: 80px 0;
+}
+
+/* Section image */
+body.sdg5 .custom-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Action box */
+body.sdg5 .action-box {
+  background-color: #6B0000;
+}
+
+/* Button styling */
+body.sdg5 .custom-btn {
+  border: 2px solid #E5243B;
+  color: #ffffff;
+}
+
+body.sdg5 .custom-btn:hover {
+  background-color: #E5243B;
+  color: #ffffff;
+}
+
+/* Footer */
+
+body.sdg5 .footer-title {
+  color: #26BDE2;
 }
 
 
