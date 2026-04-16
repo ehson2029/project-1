@@ -456,7 +456,7 @@ body.sdg4 .custom-img {
 
 /* Action box */
 body.sdg4 .action-box {
-  background-color: #6B0000;
+  background-color: #580010;
 }
 
 /* Button styling */
@@ -576,17 +576,17 @@ body.sdg5 .custom-img {
 
 /* Action box */
 body.sdg5 .action-box {
-  background-color: #6B0000;
+  background-color: #7a1500;
 }
 
 /* Button styling */
 body.sdg5 .custom-btn {
-  border: 2px solid #E5243B;
+  border: 2px solid #FF3A21;
   color: #ffffff;
 }
 
 body.sdg5 .custom-btn:hover {
-  background-color: #E5243B;
+  background-color:  #FF3A21;
   color: #ffffff;
 }
 
@@ -695,17 +695,17 @@ body.sdg6 .custom-img {
 
 /* Action box */
 body.sdg6 .action-box {
-  background-color: #6B0000;
+  background-color:#16425B;
 }
 
 /* Button styling */
 body.sdg6 .custom-btn {
-  border: 2px solid #E5243B;
+  border: 2px solid #26BDE2;
   color: #ffffff;
 }
 
 body.sdg6 .custom-btn:hover {
-  background-color: #E5243B;
+  background-color:#26BDE2;
   color: #ffffff;
 }
 
