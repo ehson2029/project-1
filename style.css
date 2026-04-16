@@ -112,9 +112,7 @@ body.sdg1 .custom-btn:hover {
 }
 
 /* Footer */
-body.sdg1 .custom-footer {
-  padding: 40px 0;
-}
+
 
 body.sdg1 .footer-title {
   color: #E5243B ;
@@ -595,7 +593,7 @@ body.sdg5 .custom-btn:hover {
 /* Footer */
 
 body.sdg5 .footer-title {
-  color: #FF3A21;
+  color: black;
 }
 
 /* SDG 6 - Clean Water (Cyan) */
@@ -689,31 +687,31 @@ body.sdg6 footer {
 }
 
 /* Section image */
-body.sdg5 .custom-img {
+body.sdg6 .custom-img {
   height: 300px;
   width: 100%;
   object-fit: cover;
 }
 
 /* Action box */
-body.sdg5 .action-box {
+body.sdg6 .action-box {
   background-color: #6B0000;
 }
 
 /* Button styling */
-body.sdg5 .custom-btn {
+body.sdg6 .custom-btn {
   border: 2px solid #E5243B;
   color: #ffffff;
 }
 
-body.sdg5 .custom-btn:hover {
+body.sdg6 .custom-btn:hover {
   background-color: #E5243B;
   color: #ffffff;
 }
 
 /* Footer */
 
-body.sdg5 .footer-title {
+body.sdg6 .footer-title {
   color: #26BDE2;
 }
 
