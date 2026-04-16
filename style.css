@@ -1520,6 +1520,34 @@ body.sdg13 footer {
   padding: 80px 0;
 }
 
+/* Section image */
+body.sdg13 .custom-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Action box */
+body.sdg13 .action-box {
+  background-color: #6B0000;
+}
+
+/* Button styling */
+body.sdg13 .custom-btn {
+  border: 2px solid #E5243B;
+  color: #ffffff;
+}
+
+body.sdg13 .custom-btn:hover {
+  background-color: #E5243B;
+  color: #ffffff;
+}
+
+/* Footer */
+
+body.sdg13 .footer-title {
+  color:  #3F7E44;
+}
 
 /* SDG 14 - Life Below Water (Blue) */
 
@@ -1609,6 +1637,35 @@ body.sdg14 footer {
   background: var(--sdg14-navy);
   color: #ffffff;
   padding: 80px 0;
+}
+
+/* Section image */
+body.sdg14 .custom-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Action box */
+body.sdg14 .action-box {
+  background-color: #6B0000;
+}
+
+/* Button styling */
+body.sdg14 .custom-btn {
+  border: 2px solid #E5243B;
+  color: #ffffff;
+}
+
+body.sdg14 .custom-btn:hover {
+  background-color: #E5243B;
+  color: #ffffff;
+}
+
+/* Footer */
+
+body.sdg14 .footer-title {
+  color:  #0A97D9;
 }
 
 
