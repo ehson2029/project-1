@@ -112,9 +112,7 @@ body.sdg1 .custom-btn:hover {
 }
 
 /* Footer */
-body.sdg1 .custom-footer {
-  padding: 40px 0;
-}
+
 
 body.sdg1 .footer-title {
   color: #E5243B ;
@@ -219,17 +217,17 @@ body.sdg2 .custom-img {
 
 /* Action box */
 body.sdg2 .action-box {
-  background-color: #6B0000;
+  background-color: #6B4400;
 }
 
 /* Button styling */
 body.sdg2 .custom-btn {
-  border: 2px solid #E5243B;
+  border: 2px solid #DDA63A;
   color: #ffffff;
 }
 
 body.sdg2 .custom-btn:hover {
-  background-color: #E5243B;
+  background-color: #DDA63A;
   color: #ffffff;
 }
 
@@ -338,17 +336,17 @@ body.sdg3 .custom-img {
 
 /* Action box */
 body.sdg3 .action-box {
-  background-color: #6B0000;
+  background-color: #1a4a10;
 }
 
 /* Button styling */
 body.sdg3 .custom-btn {
-  border: 2px solid #E5243B;
+  border: 2px solid #4C9F38;
   color: #ffffff;
 }
 
 body.sdg3 .custom-btn:hover {
-  background-color: #E5243B;
+  background-color: #4C9F38;
   color: #ffffff;
 }
 
@@ -458,17 +456,17 @@ body.sdg4 .custom-img {
 
 /* Action box */
 body.sdg4 .action-box {
-  background-color: #6B0000;
+  background-color: #580010;
 }
 
 /* Button styling */
 body.sdg4 .custom-btn {
-  border: 2px solid #E5243B;
+  border: 2px solid #C5192D;
   color: #ffffff;
 }
 
 body.sdg4 .custom-btn:hover {
-  background-color: #E5243B;
+  background-color: #C5192D;
   color: #ffffff;
 }
 
@@ -578,17 +576,17 @@ body.sdg5 .custom-img {
 
 /* Action box */
 body.sdg5 .action-box {
-  background-color: #6B0000;
+  background-color: #7a1500;
 }
 
 /* Button styling */
 body.sdg5 .custom-btn {
-  border: 2px solid #E5243B;
+  border: 2px solid #FF3A21;
   color: #ffffff;
 }
 
 body.sdg5 .custom-btn:hover {
-  background-color: #E5243B;
+  background-color:  #FF3A21;
   color: #ffffff;
 }
 
@@ -689,31 +687,31 @@ body.sdg6 footer {
 }
 
 /* Section image */
-body.sdg5 .custom-img {
+body.sdg6 .custom-img {
   height: 300px;
   width: 100%;
   object-fit: cover;
 }
 
 /* Action box */
-body.sdg5 .action-box {
-  background-color: #6B0000;
+body.sdg6 .action-box {
+  background-color:#16425B;
 }
 
 /* Button styling */
-body.sdg5 .custom-btn {
-  border: 2px solid #E5243B;
+body.sdg6 .custom-btn {
+  border: 2px solid #26BDE2;
   color: #ffffff;
 }
 
-body.sdg5 .custom-btn:hover {
-  background-color: #E5243B;
+body.sdg6 .custom-btn:hover {
+  background-color:#26BDE2;
   color: #ffffff;
 }
 
 /* Footer */
 
-body.sdg5 .footer-title {
+body.sdg6 .footer-title {
   color: #26BDE2;
 }
 
@@ -806,6 +804,35 @@ body.sdg7 .footer {
   background: var(--sdg7-navy);
   color: #ffffff;
   padding: 80px 0;
+}
+
+/* Section image */
+body.sdg7 .custom-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Action box */
+body.sdg7 .action-box {
+  background-color: #5a4000;
+}
+
+/* Button styling */
+body.sdg7 .custom-btn {
+  border: 2px solid #FCC30B;
+  color: #ffffff;
+}
+
+body.sdg7 .custom-btn:hover {
+  background-color: #FCC30B;
+  color: #ffffff;
+}
+
+/* Footer */
+
+body.sdg7 .footer-title {
+  color: #FCC30B;
 }
 
 
@@ -909,17 +936,17 @@ body.sdg8 .custom-img {
 
 /* Action box */
 body.sdg8 .action-box {
-  background-color: #6B0000;
+  background-color: #4a0018;
 }
 
 /* Button styling */
 body.sdg8 .custom-btn {
-  border: 2px solid #E5243B;
+  border: 2px solid #A21942;
   color: #ffffff;
 }
 
 body.sdg8 .custom-btn:hover {
-  background-color: #E5243B;
+  background-color: #A21942;
   color: #ffffff;
 }
 
@@ -1028,17 +1055,17 @@ body.sdg9 .custom-img {
 
 /* Action box */
 body.sdg9 .action-box {
-  background-color: #6B0000;
+  background-color: #7a2c00;
 }
 
 /* Button styling */
 body.sdg9 .custom-btn {
-  border: 2px solid #E5243B;
+  border: 2px solid #FD6925;
   color: #ffffff;
 }
 
 body.sdg9 .custom-btn:hover {
-  background-color: #E5243B;
+  background-color: #FD6925;
   color: #ffffff;
 }
 
@@ -1146,17 +1173,17 @@ body.sdg10 .custom-img {
 
 /* Action box */
 body.sdg10 .action-box {
-  background-color: #6B0000;
+  background-color: #6b0030;
 }
 
 /* Button styling */
 body.sdg10 .custom-btn {
-  border: 2px solid #E5243B;
+  border: 2px solid #DD1367;
   color: #ffffff;
 }
 
 body.sdg10 .custom-btn:hover {
-  background-color: #E5243B;
+  background-color:#DD1367;
   color: #ffffff;
 }
 
@@ -1255,6 +1282,34 @@ body.sdg11 footer {
   padding: 80px 0;
 }
 
+/* Section image */
+body.sdg11 .custom-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Action box */
+body.sdg11 .action-box {
+  background-color: #7a4000;
+}
+
+/* Button styling */
+body.sdg11 .custom-btn {
+  border: 2px solid #FD9D24;
+  color: #ffffff;
+}
+
+body.sdg11 .custom-btn:hover {
+  background-color: #FD9D24;
+  color: #ffffff;
+}
+
+/* Footer */
+
+body.sdg11 .footer-title {
+  color:  #FD9D24;
+}
 
 /* SDG 12 - Responsible Consumption (Gold) */
 
@@ -1346,6 +1401,34 @@ body.sdg12 footer {
   padding: 80px 0;
 }
 
+/* Section image */
+body.sdg12 .custom-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Action box */
+body.sdg12 .action-box {
+  background-color: #BF8B2E;
+}
+
+/* Button styling */
+body.sdg12 .custom-btn {
+  border: 2px solid #5a3a00;
+  color: #ffffff;
+}
+
+body.sdg12 .custom-btn:hover {
+  background-color: #5a3a00;
+  color: #ffffff;
+}
+
+/* Footer */
+
+body.sdg12 .footer-title {
+  color:  #BF8B2E;
+}
 
 /* SDG 13 - Climate Action (Dark Green) */
 
@@ -1437,6 +1520,34 @@ body.sdg13 footer {
   padding: 80px 0;
 }
 
+/* Section image */
+body.sdg13 .custom-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Action box */
+body.sdg13 .action-box {
+  background-color: #1a3a1c;
+}
+
+/* Button styling */
+body.sdg13 .custom-btn {
+  border: 2px solid #3F7E44;
+  color: #ffffff;
+}
+
+body.sdg13 .custom-btn:hover {
+  background-color:#3F7E44;
+  color: #ffffff;
+}
+
+/* Footer */
+
+body.sdg13 .footer-title {
+  color:  #3F7E44;
+}
 
 /* SDG 14 - Life Below Water (Blue) */
 
@@ -1526,6 +1637,35 @@ body.sdg14 footer {
   background: var(--sdg14-navy);
   color: #ffffff;
   padding: 80px 0;
+}
+
+/* Section image */
+body.sdg14 .custom-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Action box */
+body.sdg14 .action-box {
+  background-color: #003f6b;
+}
+
+/* Button styling */
+body.sdg14 .custom-btn {
+  border: 2px solid #0A97D9;
+  color: #ffffff;
+}
+
+body.sdg14 .custom-btn:hover {
+  background-color: #0A97D9;
+  color: #ffffff;
+}
+
+/* Footer */
+
+body.sdg14 .footer-title {
+  color:  #0A97D9;
 }
 
 
@@ -1619,6 +1759,34 @@ body.sdg15 footer {
   padding: 80px 0;
 }
 
+/* Section image */
+body.sdg15 .custom-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Action box */
+body.sdg15 .action-box {
+  background-color: #1e5200;
+}
+
+/* Button styling */
+body.sdg15 .custom-btn {
+  border: 2px solid #56C02B;
+  color: #ffffff;
+}
+
+body.sdg15 .custom-btn:hover {
+  background-color: #56C02B;
+  color: #ffffff;
+}
+
+/* Footer */
+
+body.sdg15 .footer-title {
+  color:  #56C02B;
+}
 
 /* SDG 16 - Peace & Justice (Dark Blue) */
 
@@ -1710,6 +1878,35 @@ body.sdg16 footer {
   padding: 80px 0;
 }
 
+/* Section image */
+body.sdg16 .custom-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Action box */
+body.sdg16 .action-box {
+  background-color:#002f4a;
+}
+
+/* Button styling */
+body.sdg16 .custom-btn {
+  border: 2px solid #00689D;
+  color: #ffffff;
+}
+
+body.sdg16 .custom-btn:hover {
+  background-color: #00689D;
+  color: #ffffff;
+}
+
+/* Footer */
+
+body.sdg16 .footer-title {
+  color:  #00689D;
+}
+
 
 /* SDG 17 - Partnerships (Navy)*/
 
@@ -1799,4 +1996,33 @@ body.sdg17 footer {
   background: var(--sdg17-navy);
   color: #ffffff;
   padding: 80px 0;
+}
+
+/* Section image */
+body.sdg17 .custom-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Action box */
+body.sdg17 .action-box {
+  background-color: #0a1e2e;
+}
+
+/* Button styling */
+body.sdg17 .custom-btn {
+  border: 2px solid #19486A;
+  color: #ffffff;
+}
+
+body.sdg17 .custom-btn:hover {
+  background-color: #19486A;
+  color: #ffffff;
+}
+
+/* Footer */
+
+body.sdg17 .footer-title {
+  color:  #19486A;
 }
