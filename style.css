@@ -39,7 +39,7 @@ body.sdg1 .hero h1 {
 body.sdg1 .img-hover {
   transition: transform 0.4s ease;
   object-fit: cover;
-  height: 400px;
+  height: 400px object-fit: cover;
   width: 100%;
 }
 
@@ -160,7 +160,7 @@ body.sdg2 .hero h1 {
 body.sdg2 .img-hover {
   transition: transform 0.4s ease;
   object-fit: cover;
-  height: 400px;
+  height: 400px object-fit: cover;
   width: 100%;
 }
 
@@ -279,7 +279,7 @@ body.sdg3 .hero h1 {
 body.sdg3 .img-hover {
   transition: transform 0.4s ease;
   object-fit: cover;
-  height: 400px;
+  height: 400px object-fit: cover;
   width: 100%;
 }
 
@@ -399,7 +399,7 @@ body.sdg4 .hero h1 {
 body.sdg4 .img-hover {
   transition: transform 0.4s ease;
   object-fit: cover;
-  height: 400px;
+  height: 400px object-fit: cover;
   width: 100%;
 }
 
@@ -449,7 +449,7 @@ body.sdg4 .footer {
 
 /* Section image */
 body.sdg4 .custom-img {
-  height: 300px;
+  height: 300px ;
   width: 100%;
   object-fit: cover;
 }
@@ -519,7 +519,7 @@ body.sdg5 .hero h1 {
 body.sdg5 .img-hover {
   transition: transform 0.4s ease;
   object-fit: cover;
-  height: 400px;
+  height: 400px object-fit: cover;
   width: 100%;
 }
 
@@ -638,7 +638,7 @@ body.sdg6 .hero h1 {
 body.sdg6 .img-hover {
   transition: transform 0.4s ease;
   object-fit: cover;
-  height: 400px;
+  height: 400px object-fit: cover;
   width: 100%;
 }
 
@@ -688,7 +688,7 @@ body.sdg6 footer {
 
 /* Section image */
 body.sdg6 .custom-img {
-  height: 300px;
+  height: 300px ;
   width: 100%;
   object-fit: cover;
 }
@@ -758,7 +758,7 @@ body.sdg7 .hero h1 {
 body.sdg7 .img-hover {
   transition: transform 0.4s ease;
   object-fit: cover;
-  height: 400px;
+  height: 400px object-fit: cover;
   width: 100%;
 }
 
@@ -808,9 +808,8 @@ body.sdg7 .footer {
 
 /* Section image */
 body.sdg7 .custom-img {
-  height: 300px;
+  height: 300px ;
   width: 100%;
-  object-fit: cover;
 }
 
 /* Action box */
@@ -879,7 +878,7 @@ body.sdg8 .hero h1 {
 body.sdg8 .img-hover {
   transition: transform 0.4s ease;
   object-fit: cover;
-  height: 400px;
+  height: 400px object-fit: cover;
   width: 100%;
 }
 
@@ -998,7 +997,7 @@ body.sdg9 .hero h1 {
 body.sdg9 .img-hover {
   transition: transform 0.4s ease;
   object-fit: cover;
-  height: 400px;
+  height: 400px object-fit: cover;
   width: 100%;
 }
 
@@ -1050,7 +1049,7 @@ body.sdg9 footer {
 body.sdg9 .custom-img {
   height: 300px;
   width: 100%;
-  object-fit: cover;
+  object-fit: cover
 }
 
 /* Action box */
@@ -1116,7 +1115,7 @@ body.sdg10 .hero h1 {
 body.sdg10 .img-hover {
   transition: transform 0.4s ease;
   object-fit: cover;
-  height: 400px;
+  height: 400px object-fit: cover;
   width: 100%;
 }
 
@@ -1234,7 +1233,7 @@ body.sdg11 .hero h1 {
 body.sdg11 .img-hover {
   transition: transform 0.4s ease;
   object-fit: cover;
-  height: 400px;
+  height: 400px object-fit: cover;
   width: 100%;
 }
 
@@ -1353,7 +1352,7 @@ body.sdg12 .hero h1 {
 body.sdg12 .img-hover {
   transition: transform 0.4s ease;
   object-fit: cover;
-  height: 400px;
+  height: 400px object-fit: cover;
   width: 100%;
 }
 
@@ -1472,7 +1471,7 @@ body.sdg13 .hero h1 {
 body.sdg13 .img-hover {
   transition: transform 0.4s ease;
   object-fit: cover;
-  height: 400px;
+  height: 400px object-fit: cover;
   width: 100%;
 }
 
@@ -1591,7 +1590,7 @@ body.sdg14 .hero h1 {
 body.sdg14 .img-hover {
   transition: transform 0.4s ease;
   object-fit: cover;
-  height: 400px;
+  height: 400px object-fit: cover;
   width: 100%;
 }
 
@@ -1711,7 +1710,7 @@ body.sdg15 .hero h1 {
 body.sdg15 .img-hover {
   transition: transform 0.4s ease;
   object-fit: cover;
-  height: 400px;
+  height: 400px object-fit: cover;
   width: 100%;
 }
 
@@ -1830,7 +1829,7 @@ body.sdg16 .hero h1 {
 body.sdg16 .img-hover {
   transition: transform 0.4s ease;
   object-fit: cover;
-  height: 400px;
+  height: 400px object-fit: cover;
   width: 100%;
 }
 
@@ -1950,7 +1949,7 @@ body.sdg17 .hero h1 {
 body.sdg17 .img-hover {
   transition: transform 0.4s ease;
   object-fit: cover;
-  height: 400px;
+  height: 400px object-fit: cover;
   width: 100%;
 }
 
@@ -2026,3 +2025,153 @@ body.sdg17 .custom-btn:hover {
 body.sdg17 .footer-title {
   color:  #19486A;
 }
+
+
+
+body.home {
+      font-family: 'Inter', sans-serif;
+      background-color: #ffffff;
+      color: #1a1a2e;
+    }
+
+    .navbar {
+      background: #ffffff;
+      border-bottom: 5px solid #E5243B;
+      padding: 1.2rem 0;
+    }
+
+    .navbar-brand {
+      font-weight: 900;
+      letter-spacing: -1px;
+      color: #1a1a2e !important;
+    }
+
+    .hero {
+      background-color: #1a1a2e;
+      color: #ffffff;
+      padding: 120px 0;
+      border-bottom: 20px solid #E5243B;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-weight: 800;
+      font-size: 3.5rem;
+      color: #E5243B;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      opacity: 0.7;
+      max-width: 550px;
+      margin: 0 auto;
+    }
+
+    .hero .btn-main {
+      background: #E5243B;
+      color: #fff;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 50px;
+      font-weight: 700;
+      margin-top: 1.5rem;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .hero .btn-main:hover {
+      opacity: 0.85;
+      color: #fff;
+    }
+
+    .sdg-section {
+      padding: 60px 0;
+    }
+
+    .sdg-section h2 {
+      font-weight: 800;
+      margin-bottom: 2rem;
+    }
+
+    .sdg-tile {
+      border-radius: 16px;
+      padding: 20px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      transition: transform 0.2s;
+    }
+
+    .sdg-tile:hover {
+      transform: translateY(-4px);
+    }
+
+    .sdg-tile .num {
+      font-size: 2rem;
+      font-weight: 900;
+      color: #fff;
+      display: block;
+    }
+
+    .sdg-tile .name {
+      font-size: 0.6rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.85);
+      margin-top: 5px;
+      display: block;
+    }
+
+    .why-section {
+      background-color: #f8f8f8;
+      padding: 60px 0;
+      border-top: 4px solid #E5243B;
+    }
+
+    .why-section h2 {
+      font-weight: 800;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .why-section p {
+      font-size: 1rem;
+      color: #444;
+      line-height: 1.8;
+      max-width: 650px;
+    }
+
+    .why-section .learn-btn {
+      border: 2px solid #E5243B;
+      color: #E5243B;
+      padding: 10px 26px;
+      border-radius: 50px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1.2rem;
+      transition: all 0.2s;
+    }
+
+    .why-section .learn-btn:hover {
+      background: #E5243B;
+      color: #fff;
+    }
+
+    footer {
+      background: #1a1a2e;
+      color: #ffffff;
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    footer h2 {
+      font-weight: 900;
+      color: #E5243B;
+    }
+
+    footer p {
+      opacity: 0.4;
+    }
+
+
